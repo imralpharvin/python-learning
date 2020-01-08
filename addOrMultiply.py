@@ -3,11 +3,17 @@
 # Program: This program asks for two integer input and whether to add or multiply them
 
 def add(n, m):
+    """
+    Function: Adds two numbers and returns the sum
+    """
     sum = n + m
 
     return sum
 
 def multiply(n,m):
+    """
+    Function: Multiplies two numbers and returns the product
+    """
     product = n*m 
 
     return product
